@@ -1,0 +1,212 @@
+/*Reset*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*spa*/
+
+.navbar{
+    background-color: black;
+    color: white;
+    height: 70px;
+    padding-top: 0;
+    overflow: hidden
+}
+
+.navbar h1{
+    display: inline-block;
+    line-height: 90px;
+}
+
+.navbar .containerDiv{
+    width: 50%;
+    margin-left: 450px;
+    display: inline-block;
+}
+
+.navbar ul{
+    float: right;
+    list-style: none;
+}
+
+.navbar li{
+    float: left;
+    padding: 30px 40px;
+
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li:hover{
+    background-color: rgb(64, 175, 64);
+    cursor: pointer;
+}
+
+.showcase{
+    background: url(./img/Encabezado.jfif) no-repeat center center/cover;
+    height: 600px;
+}
+
+
+.showcase .container .showcase-content{
+    padding-top: 250px;
+    margin-left: 500px;
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+
+.showcase .container .showcase-content h2{
+    font-size: 60px;
+}
+
+.showcase .container .showcase-content p{
+    font-size: 20px;
+}
+
+.showcase .container .showcase-content span{
+    color: rgb(64, 175, 64);
+}
+
+.showcase .container .showcase-content button{
+    font-size: 20px;
+    margin-top: 40px;
+    padding: 25px 40px;
+    border-radius: 15px;
+    background-color: rgb(199, 182, 182);
+    border: none;
+    
+}
+
+.showcase .container .showcase-content button:hover{
+    background-color: rgb(64, 175, 64);
+}
+
+/*Home*/
+#home-info{
+    height: 400px;
+}
+
+#home-info .container{
+    background: url(./img/Home.jfif) no-repeat center center/cover;
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+#home-info .home-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 150px 30px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+#home-info button{
+    font-size: 20px;
+    margin-top: 40px;
+    padding: 25px 40px;
+    border-radius: 15px;
+    background-color: rgb(199, 182, 182);
+    border: none;
+}
+#home-info span{
+    color: rgb(64, 175, 64);
+}
+
+
+#home-info button:hover{
+    background-color: rgb(64, 175, 64);
+}
+
+/*Recomendados*/
+
+.box{
+    max-width: 33.3%;
+    float: left;
+    padding: 50px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.exfoliacion{
+    background-color: rgb(196, 193, 193);
+    color: white;
+}
+
+.maquillaje{
+    background-color: rgb(126, 123, 123);
+    color: white;
+}
+
+.facial{
+    background-color: rgb(34, 153, 64);
+    color: white;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 70px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer p{
+    font-size: 20px;
+}
+
+/*Empresa*/
+
+#info-zahara .container{
+    height: 350px;
+    background-color: rgb(228, 225, 225);
+}
+
+#info-zahara .container-2{
+    max-width: 50%;
+
+    margin-left: 400px;
+    padding: 90px;
+}
+
+#info-zahara .container-content h2{
+    font-size: 40px;
+    color: grey;
+}
+
+#info-zahara .container-content span{
+    color: rgb(91, 153, 91);
+}
+
+#info-zahara .container-content p{
+    justify-content: left;
+    color: rgb(59, 57, 57);
+    font-size: 25px;
+
+}
+
+#info-zahara .img img{
+    float: right;
+    border-radius: 50%;
+}
+
+/*Empresa - Testimonios*/
+
+#testimonios .container{
+    background: url(./img/cara2.jfif) no-repeat center center/cover;
+}
+
+#testimonios .testimonio1{
+    margin: auto;
+}
+
+
+

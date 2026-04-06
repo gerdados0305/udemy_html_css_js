@@ -1,0 +1,47 @@
+body{
+    background-color: blue;
+    color: white;
+}
+
+div{
+    background-color: white;
+    width: 25%;
+    height: 300px;
+    margin: auto;
+    margin-top: 8%;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+h1,h2,p,button{
+    padding: 5px 0;
+}
+
+h1{
+    color: orange;
+
+}
+
+h2{
+    color: rgb(138, 50, 50);
+}
+
+p{
+    color: rgb(49, 125, 196);
+}
+
+button{
+    width: 90%;
+    padding: 15px 0;
+    border-radius: 10px;
+    border: none;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(87, 58, 5);
+}
+

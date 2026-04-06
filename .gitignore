@@ -1,0 +1,44 @@
+# --- Instaladores y Ejecutables (Vistos en tu carpeta) ---
+*.exe
+*.msi
+*.deb
+*.bat
+
+# --- Node.js (Crucial si usas npm después) ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# --- Archivos de Sistema y Configuración (Vistos antes) ---
+.android/
+.cache/
+.config/
+.dbus-keyrings/
+.dotnet/
+.gradle/
+.local/
+.m2/
+.ollama/
+.skiko/
+.vscode/
+Thumbs.db
+.DS_Store
+*.log
+*.tmp
+NTUSER.DAT*
+ntuser.*
+
+# --- Base de Datos (Visto psqlodbc en tu lista) ---
+*.sql
+*.sqlite
+*.db
+
+# --- Archivos Grandes (Opcional, pero recomendado) ---
+*.mp4
+*.zip
+*.rar
+*.7z
+*.psd
+*.pdf

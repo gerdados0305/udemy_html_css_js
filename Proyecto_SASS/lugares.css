@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(img/principal.jpg) no-repeat center center/cover;
+}
+
+.header .navegacion {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.navegacion .derecha{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+
+
+.navegacion .derecha a{
+    text-decoration: none;
+    color: white
+}
+
+.navegacion .derecha a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+
+
+.header img{
+    height: 5rem;
+    width: 5rem;
+}
+
+.galerias {
+    width: 100%;
+    padding: 20px;
+}
+
+.galerias p h2{
+    margin-left: 10rem;
+}
+
+.imagenes {
+    display: grid;
+    grid-template-areas: 
+        "i1 i2 i3"
+        "i4 i5 i6"
+        "i7 i8 i9"
+        "i10 . ."; 
+
+}
+
+.imagenes img {
+    width: 70%;
+    height: 200px; 
+    object-fit: cover;
+    display: block;
+}
+
+#i1{
+    grid-area: i1;
+}
+
+#i2{
+    grid-area: i2;
+}
+
+#i3{
+    grid-area: i3;
+}
+
+#i4{
+    grid-area: i4;
+}
+
+#i5{
+    grid-area: i5;
+}
+
+#i6{
+    grid-area: i6;
+}
+
+#i7{
+    grid-area: i7;
+}
+
+#i8{
+    grid-area: i8;
+}
+
+#i9{
+    grid-area: i9;
+}
+
+#i10{
+    grid-area: i10;
+}

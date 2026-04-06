@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 0;
+}
+
+.navbar .left{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.navbar .right {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .right a{
+    text-decoration: none;
+    color: black; 
+}
+
+.navbar .right a:hover{
+    text-decoration: underline;
+}
+
+.proyecto {
+    position: relative; 
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.proyecto .superpuesto{
+    background-color: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    opacity: 0;
+    transition: all 0.2 ease-in;
+}
+
+.proyectos .superpuesto:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.superpuesto.blanco{
+    color: white;
+}
+
+.proyectos{
+    display: grid;
+  
+    grid-template-areas: 
+    "apartamento apartamento casa1"
+    "apartamento apartamento casa1"
+    "casa4 casa3 casa2"
+    "casa5 casa6 casa6"
+    "casa5 casa6 casa6"
+    "casa7 casa7 casa8"
+    "casa7 casa7 casa8";
+    width: 100%;
+    grid-gap: 16px;
+}
+
+.proyectos img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+#apartamento{
+    grid-area: apartamento;
+}
+
+#casa1{
+    grid-area: casa1;
+}
+
+#casa2{
+    grid-area: casa2;
+}
+
+#casa3{
+    grid-area: casa3;
+}
+
+#casa4{
+    grid-area: casa4;
+}
+
+#casa5{
+    grid-area: casa5;
+}
+
+#casa6{
+    grid-area: casa6;
+}
+
+#casa7{
+    grid-area: casa7;
+}
+
+#casa8{
+    grid-area: casa8;
+}
+
+.footer{
+    text-align: center;
+    padding: 64px;
+}

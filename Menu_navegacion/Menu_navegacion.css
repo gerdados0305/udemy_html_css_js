@@ -1,0 +1,25 @@
+.Titulo{
+    text-align: center;
+}
+
+.Navegador{
+    background-color: black;
+}
+
+ul{
+    list-style: none;
+    padding: 20px;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    margin: 0 30px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+}

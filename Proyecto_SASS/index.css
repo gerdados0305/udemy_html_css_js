@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(img/principal.jpg) no-repeat center center/cover;
+}
+
+.navegacion{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.navegacion .derecha{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+}
+
+.navegacion .derecha a{
+    text-decoration: none;
+    color: white
+}
+
+.navegacion .derecha a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+
+
+.header img{
+    height: 5rem;
+    width: 5rem;
+}
+
+.header .titulo{
+    width: 50%;
+    margin: 25rem 0 25rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.titulo h1{
+    padding: 1rem;
+    font-size: 3.5rem;
+}
+
+.titulo p{
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.titulo button{
+    height: 4rem;
+    width: 10rem;
+    border-radius: 5rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.titulo button:hover{
+    color: white;
+    background-color: orange;
+}
+
+.recomendados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    width: 75%;
+    margin-left: 17rem;
+}
+
+.recomendados h1{
+    padding-bottom: 2rem;
+}
+
+.recomendados p{
+    font-size:  1.5rem;
+    margin-bottom: 2rem;
+}
+
+.recomendados .recomendados-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+
+.recomendados .recomendados-img .img1 img {
+    height: 20rem;
+    width: 20rem;
+}      
+
+.recomendados .recomendados-img .img2 img {
+    height: 20rem;
+    width: 20rem;
+}
+
+.recomendados .recomendados-img .img3 img {
+    height: 20rem;
+    width: 20rem;
+}
+
+.recomendados .recomendados-img .img4 img {
+    height: 20rem;
+    width: 20rem;
+}
+
+.cuadros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.cuadros .destinos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 25rem;
+    width: 40rem;
+    background-color: rgb(242, 235, 235);
+}
+
+.cuadros .reconocimiento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 25rem;
+    width: 40rem;
+    background-color: rgb(213, 213, 213);
+}
+
+.cuadros .horas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 25rem;
+    width: 40rem;
+    background-color: rgb(242, 235, 235);
+}
+
+.cuadros .fotos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 25rem;
+    width: 40rem;
+    background-color: rgb(213, 213, 213);
+}
+
+.descubre{
+    width: 95%;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.descubre .seleccion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    width: 80%; 
+    padding-top: 5rem;
+}
+
+.descubre .seleccion .viaje{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    width: 20%;
+}
+
+.descubre .seleccion .foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    width: 20%;
+}
+
+.descubre .seleccion .global{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    width: 20%;
+}
+
+.descubre .seleccion .inolvidable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    width: 20%;
+}
+
+footer{
+    height: 8rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(78, 77, 77);
+    color: white;
+}
