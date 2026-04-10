@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.contenedor{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: all 0.1s;
+}
+
+.fondo-redondeado{
+    width: 120rem;
+    height: 120rem;
+    border-radius: 10%;
+    background: linear-gradient(225deg, #ff900b , #ff505b);
+    position: absolute;
+    top: -70%;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 1rem 5rem rgba(248, 106, 59, 0.2);
+}
+
+.envoltura-formulario{
+    width: 80rem;
+    height: 60rem;
+    background-color: white;
+    display: flex;
+    border-radius: 3rem;
+    box-shadow: 0 2rem 6rem rgba(6 , 12 , 15 , 0.2);
+    position: relative;
+    z-index: 100;
+    transition: all 0.1s;
+}
+
+.envoltura-formulario-izquierda{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10rem 0 20rem 0;
+}
+
+.sol-luna{
+    width: 12rem;
+    height: 12rem;
+    background: linear-gradient(225deg, #ff900b , #ff505b);
+    border-radius: 50%;
+}
+
+.envoltura-formulario-izquierda button{
+    width: 20rem;
+    height: 4rem;
+    background-color: #e8e8e8;
+    border: none;
+    border-radius: 3rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.envoltura-formulario-izquierda button span{
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+}
+
+.fondo{
+    background-color: white;
+    border-radius: 3rem;
+    left: 0;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.dia , .noche{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dia{
+    left: 0;
+}
+
+.noche{
+    right: 0;
+}
+
+.envoltura-formulario-derecha{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8rem 0;
+}
+
+.envoltura-formulario-derecha h1{
+    font-size: 5rem;
+    color: #777;
+}
+
+.campo{
+    width: 30rem;
+    height: 5rem;
+    border: none;
+    border-bottom: 0.2rem solid #bbb;
+    font-size: 1.4rem;
+    color: #555;
+    background-color: transparent;
+}
+
+.campo::placeholder{
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    color: #bbb;
+    letter-spacing: 0.1rem;
+}
+
+.envoltura-formulario-derecha .mgs{
+    height: 20rem;
+    resize: none;
+}
+
+.envoltura-formulario-derecha button{
+    width: 30rem;
+    height: 4.5rem;
+    background-color: #263431;
+    border: none;
+    border-radius: 3rem;
+    color: #bbb;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
