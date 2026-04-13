@@ -21,6 +21,10 @@ html{
     transition: all 0.1s;
 }
 
+.switch.contenedor{
+    background-color: #262431;
+}
+
 .fondo-redondeado{
     width: 120rem;
     height: 120rem;
@@ -32,6 +36,13 @@ html{
     transform: translateX(-50%);
     box-shadow: 0 1rem 5rem rgba(248, 106, 59, 0.2);
 }
+
+
+.switch .fondo-redondeado{
+    background: linear-gradient(225deg, #93cdff , #3c3a74);
+    box-shadow: 0 1rem 5rem rgba(60, 58, 115, 0.5);
+}
+
 
 .envoltura-formulario{
     width: 80rem;
@@ -45,6 +56,11 @@ html{
     transition: all 0.1s;
 }
 
+.switch .envoltura-formulario{
+    background-color: #262431;
+}
+
+
 .envoltura-formulario-izquierda{
     width: 40%;
     display: flex;
@@ -54,11 +70,37 @@ html{
     padding: 10rem 0 20rem 0;
 }
 
+
 .sol-luna{
     width: 12rem;
     height: 12rem;
     background: linear-gradient(225deg, #ff900b , #ff505b);
     border-radius: 50%;
+    position: relative;
+}
+
+.switch .sol-luna{
+    background: linear-gradient(225deg, #93cdff , #3c3a74);
+    box-shadow: none;
+}
+
+.sol-luna:after{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 9.5rem;
+    height: 9.5rem;
+    border-radius: 50%;
+    background-color: white;
+    transform: scale(0);
+    transition: transform 0.5;
+}
+
+.switch .sol-luna:after{
+    background-color: #263431;
+    transform: scale(1);
+
 }
 
 .envoltura-formulario-izquierda button{
@@ -84,6 +126,11 @@ html{
     border-radius: 3rem;
     left: 0;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.switch .fondo{
+    transform: translate(100%);
+    background-color: #262431;
 }
 
 .dia , .noche{
